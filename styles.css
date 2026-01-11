@@ -67,21 +67,31 @@
   align-items: center;
 }
 .profile {
-  width: 500px;
+  width: 600px;
   height: 400px;
-  border: 2px dotted black;
   background-color: rgb(191, 239, 223);
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 60px;
   margin: 10px auto;
   padding: 10px;
 }
 #prof {
-  width: 300px;
+  width: 400px;
   height: 300px;
   margin-top: 20px;
   border-radius: 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+span {
+  color: rgb(13, 219, 106);
+  text-shadow: 0 0 1px rgb(13, 219, 106);
 }
